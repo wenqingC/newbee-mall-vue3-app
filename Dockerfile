@@ -8,5 +8,5 @@ COPY . .
 RUN npm config set strict-ssl false
 RUN npm install
 
-EXPOSE 8080
+EXPOSE 8090
 CMD ["npm","run", "serve"]
